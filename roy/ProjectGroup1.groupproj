@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{7462D15C-626C-4B88-855F-895EDEED564B}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="..\..\Downloads\Telegram Desktop\PSO Method\PSO Method\PSO_Project.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Roy.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="PSO_Project">
+        <MSBuild Projects="..\..\Downloads\Telegram Desktop\PSO Method\PSO Method\PSO_Project.dproj"/>
+    </Target>
+    <Target Name="PSO_Project:Clean">
+        <MSBuild Projects="..\..\Downloads\Telegram Desktop\PSO Method\PSO Method\PSO_Project.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PSO_Project:Make">
+        <MSBuild Projects="..\..\Downloads\Telegram Desktop\PSO Method\PSO Method\PSO_Project.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Roy">
+        <MSBuild Projects="Roy.dproj"/>
+    </Target>
+    <Target Name="Roy:Clean">
+        <MSBuild Projects="Roy.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Roy:Make">
+        <MSBuild Projects="Roy.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="PSO_Project;Roy"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="PSO_Project:Clean;Roy:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="PSO_Project:Make;Roy:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

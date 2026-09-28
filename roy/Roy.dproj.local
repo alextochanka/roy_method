@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.069,=C:\Users\alexe\Downloads\Telegram Desktop\PSO Method\PSO Method\PSO_Engine.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.344,=C:\Users\alexe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.304,=C:\Users\alexe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.509,C:\Users\alexe\Desktop\Roy\PartialSwarmInt.pas=C:\Users\alexe\Desktop\Roy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.061,C:\Users\alexe\Desktop\Roy\Roy.dproj=C:\Users\alexe\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.504,C:\Users\alexe\Desktop\Roy\Unit1.dfm=C:\Users\alexe\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.504,C:\Users\alexe\Desktop\Roy\Unit1.pas=C:\Users\alexe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.509,C:\Users\alexe\Desktop\Roy\PartialSwarmInt.dfm=C:\Users\alexe\Desktop\Roy\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
