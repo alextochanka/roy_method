@@ -1,8 +1,7 @@
 # 🐝 Роевой метод глобальной оптимизации
-<p align="center"> <b>Графический интерфейс для расчёта целевых функций</b><br> <sub>Delphi/VCL-приложение для решения задач глобальной оптимизации</sub> </p><p align="center"> <img src="https://img.shields.io/badge/Delphi-12%2B-red?style=for-the-badge&logo=delphi&logoColor=white" alt="Delphi" alt="Python"> <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows"> <img src="https://img.shields.io/badge/VCL-GUI-orange?style=for-the-badge" alt="VCL"> </p><p align="center"> <img src="https://img.shields.io/badge/License-Educational-lightgrey?style=flat-square" alt="License"> <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" alt="Status"> <img src="https://img.shields.io/badge/Language-Pascal-blue?style=flat-square" alt="Pascal"> </p>
 
 ##  Описание
-**Приложение с графическим интерфейсом** для решения задач глобальной оптимизации с использованием **Роевого метода**.\
+**Приложение с графическим интерфейсом** для решения задач глобальной оптимизации с использованием **Роевого метода**.
 
 ##  Возможности
 
